@@ -1,0 +1,19 @@
+{
+    "appkeys": [
+        {
+            "key": "63964771734fbd76e3b40519d1d94a48"
+        }
+    ],
+    "devkeys": [
+        {
+            "key": "9d6dd0e96eb25dc19a40ed9914f8f03f",
+            "address": "1201"
+        }
+    ],
+    "netkeys": [
+        {
+            "key": "7dd7364cd842ad18c17c2b820c84c3d6",
+            "ivindex": "12345678"
+        }
+    ]
+}
