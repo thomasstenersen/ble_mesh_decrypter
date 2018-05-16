@@ -80,7 +80,7 @@ class MeshDecrypter(object):
                         break
         else:
             for key in self.devkeys:
-                cleartext = key.decrypt(neykey, pdu)
+                cleartext = key.decrypt(netkey, pdu)
                 if cleartext is not None:
                     pdu = cleartext
                     break

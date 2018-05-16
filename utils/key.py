@@ -146,7 +146,7 @@ class DeviceKey(object):
         self.key = key
         self.address = address
 
-    def decrypt(self, pdu):
+    def decrypt(self, netkey, pdu):
         ctl = (pdu[1] & 0x80) > 0
         seg = (pdu[9] & 0x80) > 0
         akf = (pdu[9] & 0x40) > 0
